@@ -1,8 +1,8 @@
 {
   "name": "react-utilities-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Iftekhar Ahmad",
-    "homepage": "https://github.com/iftekhar92/react-utilities-hooks.git#readme",
+  "homepage": "https://github.com/iftekhar92/react-utilities-hooks.git#readme",
   "bugs": {
     "url": "https://github.com/iftekhar92/react-utilities-hooks.git/issues"
   },

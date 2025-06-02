@@ -17,7 +17,7 @@ Delays invoking the callback until after some time has passed since the last dep
  
  **Example**
  ```
- import { useDebounce } from "react-resize-window";
+ import { useDebounce } from "react-utilities-hooks";
  const [currentFilter, setCurrentFilter] = useState();
  const [tempFilter, setTempFilter] = useState();
  useDebounce([setTempFilter], () => {
@@ -33,7 +33,7 @@ Delays invoking the callback until after some time has passed since the last dep
  - `@param` delay = 350, It is optional that is used for debouncing rate in window resizing.
 
  ```
- import { useWindowResized } from "react-resize-window";
+ import { useWindowResized } from "react-utilities-hooks";
  const {height, width} = useWindowResized(1000);
  useEffect(() => {
     console.log("height, width: ", height, width);
